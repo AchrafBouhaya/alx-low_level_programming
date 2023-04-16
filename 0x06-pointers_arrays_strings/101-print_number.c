@@ -1,10 +1,17 @@
 #include "main.h"
 
 /**
+<<<<<<< HEAD
   * print_number - print numbers chars
   * @n: integer params
   * Return: 0
  **/
+=======
+ * print_number - print numbers chars
+ * @n: integer params
+ * Return: 0
+ */
+>>>>>>> 127658e12f92f319de84d0029b2e48e06ddcd873
 
 void print_number(int n)
 {

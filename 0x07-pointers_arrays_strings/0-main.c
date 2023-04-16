@@ -44,3 +44,7 @@ int main(void)
     simple_print_buffer(buffer, 98);    
     return (0);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 127658e12f92f319de84d0029b2e48e06ddcd873

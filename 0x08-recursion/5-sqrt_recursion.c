@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+<<<<<<< HEAD
  * sqrt2 - Makes possible to evaluate from 1 to n
  * @a: same number as n
  * @b: number that iterates from 1 to n
@@ -26,4 +27,32 @@ int sqrt2(int a, int b)
 int _sqrt_recursion(int n)
 {
 	return (sqrt2(n, 1));
+=======
+ * check -  function that returns the natural square root of a number
+ * @a:int
+ * @b:int
+ *
+ * Return: int
+ */
+int check(int a, int b)
+{
+	if (a * a == b)
+		return (a);
+	if (a * a > b)
+		return (-1);
+	return (check(a + 1, b));
+}
+
+/**
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: integer to find sqrt of
+ *
+ * Return: natural square root or -1
+ */
+int _sqrt_recursion(int n)
+{
+	if (n == 0)
+		return (0);
+	return (check(1, n));
+>>>>>>> 127658e12f92f319de84d0029b2e48e06ddcd873
 }

@@ -5,15 +5,23 @@
 /**
  * main - program that generates random valid
  * passwords for the program 101-crackme
+<<<<<<< HEAD
  *
  * Return: Always 0 (Success)
+=======
+ * Return: Always 0 (success)
+>>>>>>> 127658e12f92f319de84d0029b2e48e06ddcd873
  */
 int main(void)
 {
 	int pass[100];
 	int i, sum, n;
 
+<<<<<<< HEAD
 	sum = 0;	
+=======
+	sum = 0;
+>>>>>>> 127658e12f92f319de84d0029b2e48e06ddcd873
 
 	srand(time(NULL));
 
@@ -30,6 +38,9 @@ int main(void)
 			break;
 		}
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 127658e12f92f319de84d0029b2e48e06ddcd873
 	return (0);
 }

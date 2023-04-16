@@ -2,7 +2,11 @@
 #include <stdio.h>
 
 /**
+<<<<<<< HEAD
  * main - check the code for Holberton School students.
+=======
+ * main - check the code
+>>>>>>> 127658e12f92f319de84d0029b2e48e06ddcd873
  *
  * Return: Always 0.
  */
